@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,200&family=Merriweather:wght@300&family=Nunito+Sans:ital,wght@1,200&family=Nunito:ital,wght@1,200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #b1b3b5;
+    color: white;
+}
+#main{
+    position: absolute;
+    margin: 70px 0 20px 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    color: white;
+    font-size: 1.5em;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(6px);
+    width: 50vw;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+}
+#name{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;   
+}
+#msg{
+    display: flex;
+    flex-direction: column;
+    padding: 20px; 
+}
+#nick{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+#yourName{
+    padding: 10px;
+}
+#field3{
+    padding: 5px;
+}
+#field4{
+    padding: 5px;
+}
+#field5{
+    padding: 5px;
+}
+#colour{
+    padding: 8px;
+}
+#textBox3{
+    width: 30vw;
+    height: 10vh;
+    padding: 30px;
+}
+#backgroundImage{
+    margin:40px 20px 0 0;
+    height: 120vh;
+    width: 90vw;
+}
+h2{
+font-size: 1em;
+}
+#mom{
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+#textBox{
+    width: 20vw;
+    height: 20px;
+    padding-top: 10px;
+}
